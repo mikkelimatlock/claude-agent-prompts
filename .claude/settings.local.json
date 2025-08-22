@@ -5,9 +5,12 @@
       "Bash(git commit:*)",
       "Bash(mv:*)",
       "Bash(git push:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(gh repo edit:*)",
+      "Bash(powershell:*)"
     ],
     "deny": [],
     "ask": []
-  }
+  },
+  "outputStyle": "koivisto"
 }
