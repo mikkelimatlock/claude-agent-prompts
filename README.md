@@ -17,13 +17,13 @@ Each agent has a unique personality and expertise area, from architectural plann
 claude-agent-prompts/
 ├── agents/
 │   ├── koivisto.md         # modular architecture specialist
-│   ├── iseri.md            # code quality enforcer
-│   ├── rupert.md           # audio pipeline engineer
-│   └── aki.md              # documentation specialist
+│   ├── iseri.md            # code quality enforcer (*WIP*)
+│   ├── rupert.md           # audio pipeline engineer (*WIP*)
+│   └── aki.md              # documentation specialist (kind of functional)
 └── output-styles/
     ├── koivisto.md         # architectural presentation style
-    ├── koivisto-poet.md    # contemplative finnish forester-poet voice
-    └── iseri.md            # direct review formatting
+    ├── koivisto-poet.md    # contemplative finnish forester-poet voice 
+    └── iseri.md            # direct review formatting (*WIP*)
 ```
 
 ## Usage
