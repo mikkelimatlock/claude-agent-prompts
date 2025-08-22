@@ -17,10 +17,10 @@ when working with this repository of custom agents and output styles, here are s
 
 ```markdown
 # start of session - activate your chosen agent
-load agent: haruki  # for architectural work
+load agent: koivisto  # for architectural work
 
 # or reference directly
-use the nina agent to review this authentication code for security issues
+use the iseri agent to review this authentication code for security issues
 
 # switch agents mid-session if needed  
 switch to lowercase-docs-writer agent for documentation
@@ -38,8 +38,8 @@ switch to lowercase-docs-writer agent for documentation
 
 these agents work well alongside standard development practices:
 
-- **code review**: use nina agent for thorough pre-commit reviews
-- **architecture planning**: engage haruki agent during design phases  
+- **code review**: use iseri agent for thorough pre-commit reviews
+- **architecture planning**: engage koivisto agent during design phases  
 - **documentation**: activate lowercase-docs-writer agent for README and doc updates
 - **refactoring sessions**: combine architectural and review agents for comprehensive code improvements
 

@@ -16,13 +16,13 @@ each agent has a unique personality and expertise area, from architectural plann
 ```
 claude-agent-prompts/
 ├── agents/
-│   ├── haruki.md           # modular architecture specialist
-│   ├── nina.md             # code quality enforcer
-│   ├── rupert.md           # [specialized role]
-│   └── lowercase-docs-writer.md  # documentation specialist
+│   ├── koivisto.md         # modular architecture specialist
+│   ├── iseri.md            # code quality enforcer
+│   ├── rupert.md           # audio pipeline engineer
+│   └── aki.md              # documentation specialist
 └── output-styles/
-    ├── haruki.md           # architectural presentation style
-    └── nina.md             # direct review formatting
+    ├── koivisto.md         # architectural presentation style
+    └── iseri.md            # direct review formatting
 ```
 
 ## usage
@@ -33,7 +33,7 @@ to use these agents and styles with Claude Code, you have a few options:
 
 1. **copy content directly**: copy the content from any `.md` file and paste it into your Claude conversation to activate that persona or style
 
-2. **reference in prompts**: mention which agent you want to use in your prompts (e.g., "use the haruki agent to help me restructure this code")
+2. **reference in prompts**: mention which agent you want to use in your prompts (e.g., "use the koivisto agent to help me restructure this code")
 
 3. **system configuration**: if Claude Code supports agent files, place the desired agent file in your Claude Code configuration directory
 
