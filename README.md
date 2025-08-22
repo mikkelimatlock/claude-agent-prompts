@@ -1,17 +1,17 @@
-# claude code agent prompts
+# Claude Code agent prompts
 
-a collection of custom Claude Code agents and output styles to enhance your coding workflow with specialized personas and formatting options.
+A collection of custom Claude Code agents and output styles to enhance your coding workflow with specialized personas and formatting options.
 
-## what's inside
+## What's inside
 
-this repository contains two main categories of prompts:
+This repository contains two main categories of prompts:
 
 - **agents/** - custom Claude Code agent configurations with distinct personalities and specializations
 - **output-styles/** - formatting and presentation styles that modify how Claude presents information
 
-each agent has a unique personality and expertise area, from architectural planning to rigorous code review. the output styles provide different ways to format and present Claude's responses to match your preferences or project needs.
+Each agent has a unique personality and expertise area, from architectural planning to rigorous code review. The output styles provide different ways to format and present Claude's responses to match your preferences or project needs.
 
-## directory structure
+## Directory structure
 
 ```
 claude-agent-prompts/
@@ -22,31 +22,32 @@ claude-agent-prompts/
 │   └── aki.md              # documentation specialist
 └── output-styles/
     ├── koivisto.md         # architectural presentation style
+    ├── koivisto-poet.md    # contemplative finnish forester-poet voice
     └── iseri.md            # direct review formatting
 ```
 
-## usage
+## Usage
 
-### with Claude Code CLI
+### With Claude Code CLI
 
-to use these agents and styles with Claude Code, you have a few options:
+To use these agents and styles with Claude Code, you have a few options:
 
-1. **copy content directly**: copy the content from any `.md` file and paste it into your Claude conversation to activate that persona or style
+1. **copy content directly**: Copy the content from any `.md` file and paste it into your Claude conversation to activate that persona or style
 
-2. **reference in prompts**: mention which agent you want to use in your prompts (e.g., "use the koivisto agent to help me restructure this code")
+2. **reference in prompts**: Mention which agent you want to use in your prompts (e.g., "use the koivisto agent to help me restructure this code")
 
-3. **system configuration**: if Claude Code supports agent files, place the desired agent file in your Claude Code configuration directory
+3. **system configuration**: If Claude Code supports agent files, place the desired agent file in your Claude Code configuration directory
 
-### choosing the right agent
+### Choosing the right agent
 
-- use **architectural agents** when planning project structure or refactoring messy codebases
-- use **review agents** when you need thorough code analysis and quality enforcement  
-- use **documentation agents** when creating or improving project documentation
-- mix and match agents based on your specific needs for each task
+- Use **architectural agents** when planning project structure or refactoring messy codebases
+- Use **review agents** when you need thorough code analysis and quality enforcement  
+- Use **documentation agents** when creating or improving project documentation
+- Mix and match agents based on your specific needs for each task
 
-## agent format
+## Agent format
 
-each agent file follows this structure:
+Each agent file follows this structure:
 
 ```markdown
 ---
@@ -59,48 +60,48 @@ color: display-color (optional)
 [detailed agent persona and instructions]
 ```
 
-## installation
+## Installation
 
-1. clone this repository:
+1. Clone this repository:
    ```bash
    git clone https://github.com/yourusername/claude-agent-prompts.git
    ```
 
-2. browse the `agents/` and `output-styles/` directories to find prompts that match your needs
+2. Browse the `agents/` and `output-styles/` directories to find prompts that match your needs
 
-3. copy and use the prompts directly in your Claude Code sessions
+3. Copy and use the prompts directly in your Claude Code sessions
 
-## contributing
+## Contributing
 
-we welcome contributions of new agents and output styles! when contributing:
+We welcome contributions of new agents and output styles! When contributing:
 
-1. follow the existing file format and structure
-2. ensure your agent has a clear, specific purpose and expertise area
-3. provide helpful examples in the description frontmatter
-4. test your agent thoroughly before submitting
-5. add meaningful commit messages that describe what the agent does
+1. Follow the existing file format and structure
+2. Ensure your agent has a clear, specific purpose and expertise area
+3. Provide helpful examples in the description frontmatter
+4. Test your agent thoroughly before submitting
+5. Add meaningful commit messages that describe what the agent does
 
-### adding new agents
+### Adding new agents
 
-1. create your agent file in the `agents/` directory
-2. follow the frontmatter format with name, description, and optional model/color
-3. write clear, specific instructions that define the agent's personality and capabilities
-4. include concrete examples of when and how to use the agent
+1. Create your agent file in the `agents/` directory
+2. Follow the frontmatter format with name, description, and optional model/color
+3. Write clear, specific instructions that define the agent's personality and capabilities
+4. Include concrete examples of when and how to use the agent
 
-### adding output styles
+### Adding output styles
 
-1. create your style file in the `output-styles/` directory
-2. focus on presentation and formatting rather than personality
-3. ensure the style enhances readability and usability
+1. Create your style file in the `output-styles/` directory
+2. Focus on presentation and formatting rather than personality
+3. Ensure the style enhances readability and usability
 
-## license
+## License
 
-this project is released under the MIT license - feel free to use, modify, and distribute these prompts as needed.
+This project is released under the MIT license - feel free to use, modify, and distribute these prompts as needed.
 
-## questions or issues
+## Questions or issues
 
-if you have questions about using these agents or want to suggest improvements, please open an issue or start a discussion. we're always looking to improve the collection and make it more useful for developers.
+If you have questions about using these agents or want to suggest improvements, please open an issue or start a discussion. We're always looking to improve the collection and make it more useful for developers.
 
 ---
 
-*these prompts are designed to work with Claude Code and enhance your development workflow through specialized AI assistance.*
+*These prompts are designed to work with Claude Code and enhance your development workflow through specialized AI assistance.*

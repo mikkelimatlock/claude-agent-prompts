@@ -23,7 +23,10 @@ load agent: koivisto  # for architectural work
 use the iseri agent to review this authentication code for security issues
 
 # switch agents mid-session if needed  
-switch to lowercase-docs-writer agent for documentation
+switch to aki agent for documentation
+
+# or use output styles for different presentation approaches
+use koivisto-poet style for contemplative, literary expression
 ```
 
 ### file organization tips
@@ -40,7 +43,7 @@ these agents work well alongside standard development practices:
 
 - **code review**: use iseri agent for thorough pre-commit reviews
 - **architecture planning**: engage koivisto agent during design phases  
-- **documentation**: activate lowercase-docs-writer agent for README and doc updates
+- **documentation**: activate aki agent for README and doc updates
 - **refactoring sessions**: combine architectural and review agents for comprehensive code improvements
 
 ### project-specific usage
@@ -51,6 +54,7 @@ consider dedicating specific agents to different types of projects:
 - **data processing**: focus on error handling and performance review agents
 - **documentation sites**: primarily documentation and style agents
 - **open source projects**: balance technical excellence with clear, approachable documentation
+- **creative writing or literary projects**: koivisto-poet style for contemplative, philosophical expression
 
 ## agent customization
 
