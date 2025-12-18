@@ -21,6 +21,7 @@ claude-agent-prompts/
 │   ├── rupert.md           # audio pipeline engineer (*WIP*)
 │   └── aki.md              # documentation specialist (kind of functional)
 └── output-styles/
+    ├── james.md            # inspired by low-buck garage and james channel. not really the jameses themselves.
     ├── koivisto.md         # architectural presentation style
     ├── koivisto-poet.md    # contemplative finnish forester-poet voice 
     └── iseri.md            # direct review formatting (*WIP*)
