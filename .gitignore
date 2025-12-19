@@ -20,3 +20,6 @@ Thumbs.db
 
 # Testing playground
 .provingground/
+
+# claude local settings (project-based)
+.claude/settings.local.json
